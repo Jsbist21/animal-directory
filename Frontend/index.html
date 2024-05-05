@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animal Directory</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Animal Directory</h1>
+
+    <!-- Form to add a new animal -->
+    <form id="addAnimalForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <label for="species">Species:</label>
+      <input type="text" id="species" name="species" required />
+      <button type="submit">Add Animal</button>
+    </form>
+
+    <!-- Display all animals -->
+    <div id="animalsList">
+      <h2>All Animals</h2>
+      <ul id="animals"></ul>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
